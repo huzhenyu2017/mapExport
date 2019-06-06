@@ -13,5 +13,5 @@ dev: npm run dev
  * @param {*} userID 当前用户ID
  * @param {Object} option 导出地图格式 {type: "png", orientation: "landscape", format: "a4", quality:'5'}
  * @param {Number} zoom 当前地图需要缩放的级别 {type: "png", orientation: "landscape", format: "a4", quality:'5'}
- * @param {string} [selector=".leaflet-container"]
- * @param {Array} [hideSelectors=".leaflet-container"]
+ * @param {string} [selector=".leaflet-container"] 需要导出的局部DOM结构
+ * @param {Array} [hideSelectors=".leaflet-container"] 需要隐藏的DOM结构
