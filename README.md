@@ -5,4 +5,4 @@ cd project-folder
 <br>cnpm install
 # use
 dev: npm run dev
-prod: npm start | npm stop
+<br>prod: npm start | npm stop
